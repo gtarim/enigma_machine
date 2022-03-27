@@ -18,7 +18,9 @@ endif(TEST)
 set(CMAKE_CXX_FLAGS "-O3")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -s")
 
-set( SOURCES main.cpp )
+set( SOURCES 
+    main.cpp
+    enigma.cpp )
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCES})
 
