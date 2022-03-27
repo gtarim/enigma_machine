@@ -8,7 +8,9 @@ include(GoogleTest)
 
 include_directories(../)
 
-set(TEST_SOURCES test.cpp)
+set(TEST_SOURCES 
+    test.cpp
+    enigma_test.cpp )
 add_executable(${CMAKE_PROJECT_NAME_TEST} ${TEST_SOURCES})
 
 target_link_libraries(${CMAKE_PROJECT_NAME_TEST} gtest gtest_main)
