@@ -1,2 +1,4 @@
 .build
 .DS_Store
+enigma_machine*
+.vscode
